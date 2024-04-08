@@ -69,3 +69,20 @@ root@ns3066876:~# screen -x
 ```sh
 micky@ns3066876:~$ vboxwebsrv
 ```
+
+# How to run Jasmin UI, py4web after server restart
+
+#1
+```
+$ cd /opt
+$ python3 -m venv py4web
+```
+#2 Activate the virtual environment
+```
+$ source py4web/bin/activate
+```
+#3 Run the server 
+```
+py4web run apps --host 0.0.0.0
+```
+
