@@ -93,4 +93,7 @@ py4web run apps --host 0.0.0.0
 ```
 #2 use wireshark to analyse pcap file
 
-
+# How to decode and encode jasmin smpp pdu
+```
+https://github.com/jookies/smpp.pdu
+```
