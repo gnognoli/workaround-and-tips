@@ -86,3 +86,11 @@ $ source py4web/bin/activate
 py4web run apps --host 0.0.0.0
 ```
 
+# Debug smpp with tcpdump wireshark
+#1 capture packets
+```
+/usr/sbin/tcpdump -v -i any -w /opt/file-name-102.176.160.207-8.pcap net 102.176.160.207 -s 0
+```
+#2 use wireshark to analyse pcap file
+
+
