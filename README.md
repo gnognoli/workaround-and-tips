@@ -97,3 +97,19 @@ py4web run apps --host 0.0.0.0
 ```
 https://github.com/jookies/smpp.pdu
 ```
+# WARN - attack prevented by Rack::Protection::AuthenticityToken (Sinatra, Padrino)
+
+Allow developper to disable protect_from_csrf for some traversal path
+
+#2 config/apps.rb
+```
+set :protection, true
+set :protect_from_csrf, true
+set :allow_disabled_csrf, true
+```
+
+#2 controller
+```post :payment, :csrf_protection => false  do
+  end
+```
+
