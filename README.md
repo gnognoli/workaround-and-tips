@@ -1,3 +1,15 @@
+# Starting nexinun services
+
+#1 ~/PRODUCTION/asterisk-api: ruby api.rb
+
+#2 /PRODUCTION/killbill_dev# RACK_ENV=production  padrino start  -h 0.0.0.0 -p 3009
+
+#3 root@ns3066876:~/PRODUCTION/IPROUTE-SCRIPT# ruby stats.rb 10.8.0.27 8093 mada43 admin admin
+
+#4 root@ns3066876:~/PRODUCTION/ruby-sms-client-git/ruby_smsclient# ruby api.rb production
+
+#5 root@ns3066876:~/PRODUCTION/ruby-sms-client-git/ruby_smsclient# RACK_ENV=production bundle exec  ./config.ru  -o 0.0.0.0 -p 6007
+
 # How to install latest ruby with latest ssl lib  on ubuntu using rbenv
 
 #1 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
