@@ -1,3 +1,8 @@
+# Adding unversioned code to git repo
+```http
+https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#using-github-cli
+```
+
 # Starting nexinun services
 
 #1 ~/PRODUCTION/asterisk-api: ruby api.rb
@@ -79,7 +84,7 @@ root@ns3066876:~# screen -x
 ```
 #2 The most important and vicious part is to be careful to start phpvirtualbox using the right user account (run it in a screen if you did not daemonized it) : 
 ```sh
-micky@ns3066876:~$ vboxwebsrv
+m***y@ns3066876:~$ vboxwebsrv
 ```
 
 # How to run Jasmin UI, py4web after server restart
