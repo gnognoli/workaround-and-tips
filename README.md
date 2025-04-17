@@ -1,3 +1,5 @@
+# changing android minsdk in flutter project
+```cat /Users/mac/Downloads/flutter/packages/flutter_tools/gradle/src/main/groovy/flutter.groovy```
 # Adding unversioned code to git repo
 ```http
 https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#using-github-cli
