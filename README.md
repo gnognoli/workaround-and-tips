@@ -4,6 +4,7 @@
 ```http
 https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#using-github-cli
 ```
+https://medium.com/@anmollamba30/finding-the-minsdkversion-in-flutter-projects-68349f4cfd44
 
 # Starting nexinun services
 
