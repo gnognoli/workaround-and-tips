@@ -1,3 +1,8 @@
+# Flutter Daily 🍃: Taming Gradle I — Solving Namespace Errors in Flutter’s Android Gradle 8.0+
+```mac@Apples-MacBook-Pro message_receiver % ls ~/.pub-cache/hosted/pub.dev/sms_advanced-1.1.0/android/src/```         
+```mac@Apples-MacBook-Pro message_receiver % ls ~/.pub-cache/hosted/pub.dev/sms_advanced-1.1.0/android/```    
+https://medium.com/@vortj/solving-namespace-errors-in-flutters-android-gradle-configuration-c2baa6262f8b
+
 # changing android minsdk in flutter project
 ```cat /Users/mac/Downloads/flutter/packages/flutter_tools/gradle/src/main/groovy/flutter.groovy```
 # Adding unversioned code to git repo
