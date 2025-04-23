@@ -1,3 +1,6 @@
+#tcpdump filter on host
+```sudo /usr/sbin/tcpdump -v -i any -w /opt/file-name2.pcap host 47.237.24.207 or host 47.91.93.255 or host 212.23.169.242  -s 0```
+
 # Flutter Daily 🍃: Taming Gradle I — Solving Namespace Errors in Flutter’s Android Gradle 8.0+
 ```mac@Apples-MacBook-Pro message_receiver % ls ~/.pub-cache/hosted/pub.dev/sms_advanced-1.1.0/android/src/```         
 ```mac@Apples-MacBook-Pro message_receiver % ls ~/.pub-cache/hosted/pub.dev/sms_advanced-1.1.0/android/```    
