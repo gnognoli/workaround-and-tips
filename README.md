@@ -111,6 +111,7 @@ $ source py4web/bin/activate
 ```
 #3 Run the server 
 ```
+cd py4web
 py4web run apps --host 0.0.0.0
 ```
 
