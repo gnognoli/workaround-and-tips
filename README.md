@@ -142,3 +142,9 @@ set :allow_disabled_csrf, true
   end
 ```
 
+# Run stored procedure to clean all accent in asterisk.messages_templates
+```
+UPDATE sms_content_templates
+SET content = unaccent(content)
+WHERE 1;
+```
